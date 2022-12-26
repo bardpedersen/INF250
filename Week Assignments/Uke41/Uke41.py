@@ -72,7 +72,7 @@ plt.show()
 
 
 # %% Part 3
-fingerprint_image = skimage.io.imread('fingerprint.tif')
+fingerprint_image = skimage.io.imread('FingerPrint.tif')
 plt.imshow(fingerprint_image)
 plt.show()
 finger_erode = skimage.morphology.erosion(fingerprint_image, skimage.morphology.disk(1))
