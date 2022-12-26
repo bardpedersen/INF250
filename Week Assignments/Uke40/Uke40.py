@@ -58,8 +58,7 @@ def sharpen(imag, sharpmask):
 
 
 if __name__ == '__main__':
-    image = skimage.io.imread('AthenIR.png')
-    image = skimage.color.rgb2gray(image)
+    image = skimage.io.imread('AthenIR.tiff')
     plt.imshow(image)
     plt.title("Original image")
     plt.show()
