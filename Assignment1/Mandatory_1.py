@@ -96,5 +96,5 @@ if __name__ == "__main__":
     pick = io.imread('gingerbreads.jpg')
     new_pick = threshold(pick)
     plt.imshow(new_pick, cmap=plt.cm.gray)
-    plt.savefig('new_pick.jpg')
+    plt.savefig('gingerbread_black_white.jpg')
     plt.show()
