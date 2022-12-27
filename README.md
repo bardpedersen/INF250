@@ -1,2 +1,2 @@
 # INF250
-Task and Assignment used in corse INF250/NMBU
+Assignment used in corse INF250 at Norwegian University of Life Sciences (NMBU)
