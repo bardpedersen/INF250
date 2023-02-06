@@ -130,4 +130,8 @@ dmypy.json
 
 .idea/
 
+*.npy
+*.hdr
+
+
 .DS_Store
